@@ -28,6 +28,36 @@
   color: #61dafb;
 }
 
+.Insight-pltr,.Insight-amc,.Insight-penn,.Insight-gme {
+  display: inline-block;
+  border: 1px solid black;
+  width: 40px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.Insight-pltr {
+  background-color: rgb(123, 123, 216);
+}
+
+.Insight-amc {
+  background-color: rgb(221, 102, 102);
+}
+
+.Insight-penn {
+  background-color: rgb(203, 203, 121);
+}
+
+.Insight-gme {
+  background-color: rgb(98, 143, 98);
+}
+
+.Insight-card {
+  display: inline-block;
+  border: 2px solid black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
